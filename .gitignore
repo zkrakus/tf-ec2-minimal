@@ -1,0 +1,21 @@
+# Terraform state and plan files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+.terraform/
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Optional: lock file for provider versioning
+# .terraform.lock.hcl
+
+# VS Code project settings
+.vscode/
+*.code-workspace
+
+# Misc
+*.log
+*.tmp
+*.swp
